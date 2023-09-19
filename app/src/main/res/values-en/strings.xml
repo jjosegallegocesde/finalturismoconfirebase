@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Turistiandov2</string>
+    <string name="resenahoteles">
+     You will find rooms from 80,000 COP with multiple
+        accommodations, kitchen and bathrooms
+    </string>
+    <string name="resenarestaurantes"></string>
+    <string name="opcion1">English</string>
+    <string name="opcion2">Spanish</string>
+    <string name="opcion3">Italian</string>
+    <string name="opcion4">About Us</string>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Turistiandov2</string>
+    <string name="resenahoteles">
+     Encontraras habitaciones desde 80000 COP con multiples
+        acomodaciones, cocina y baños
+    </string>
+    <string name="resenarestaurantes">
+
+    </string>
+    <string name="opcion1">Ingles</string>
+    <string name="opcion2">Español</string>
+    <string name="opcion3">Italiano</string>
+    <string name="opcion4">Acerca de</string>
+</resources>

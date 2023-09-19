@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AmpliandoHotel">
+
+
+    <TextView
+        android:id="@+id/nombrehoteldescripcion"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="wrap_content"
+        android:text="HOTEL Nombre"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintVertical_bias="0.01"
+        android:textSize="28dp"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/fotohoteldescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/hoteltres"
+        app:layout_constraintTop_toBottomOf="@+id/nombrehoteldescripcion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/descripcionhotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam accumsan pulvinar. Proin a mi eget erat dignissim pellentesque egestas placerat dolor. Nullam purus sapien, tempus ut gravida vitae, fringilla vitae arcu. Duis ac felis lectus. Duis ut gravida ligula. Fusce vestibulum ex dui, quis cursus augue hendrerit vel. Nunc non posuere nisi. Suspendisse dignissim tincidunt hendrerit. Integer libero arcu, convallis dapibus erat nec, rhoncus pellentesque mi. Sed ut arcu quis turpis commodo interdum condimentum quis ipsum. Aenean sodales mi at dui maximus, ut condimentum sem auctor"
+        app:layout_constraintTop_toBottomOf="@+id/fotohoteldescripcion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.05"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
